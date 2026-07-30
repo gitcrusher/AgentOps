@@ -13,5 +13,30 @@
     "id": "TKT-1003",
     "status": "In Progress",
     "subject": "Software License Request"
+  },
+  {
+    "id": "TKT-1004",
+    "status": "Closed",
+    "subject": "Need access to AWS Staging"
+  },
+  {
+    "id": "TKT-1005",
+    "status": "In Progress",
+    "subject": "Monitor flickering"
+  },
+  {
+    "id": "TKT-1006",
+    "status": "Open",
+    "subject": "Order new ergonomic chair"
+  },
+  {
+    "id": "TKT-1007",
+    "status": "Resolved",
+    "subject": "Update GitHub permissions"
+  },
+  {
+    "id": "TKT-1008",
+    "status": "Open",
+    "subject": "Guest WiFi pass for client meeting"
   }
 ]
