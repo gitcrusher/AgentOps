@@ -1,0 +1,17 @@
+[
+  {
+    "id": "TKT-1001",
+    "status": "Open",
+    "subject": "VPN Access Issue"
+  },
+  {
+    "id": "TKT-1002",
+    "status": "Resolved",
+    "subject": "Laptop Replacement"
+  },
+  {
+    "id": "TKT-1003",
+    "status": "In Progress",
+    "subject": "Software License Request"
+  }
+]

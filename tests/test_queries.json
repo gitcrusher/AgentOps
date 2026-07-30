@@ -1,0 +1,62 @@
+[
+  {
+    "query": "How much is the WFH stipend?",
+    "expected_type": "knowledge_query"
+  },
+  {
+    "query": "Can I expense alcohol on a business trip?",
+    "expected_type": "knowledge_query"
+  },
+  {
+    "query": "I need to open a ticket because my VPN is broken.",
+    "expected_type": "action_request"
+  },
+  {
+    "query": "Check the status of ticket TKT-1002.",
+    "expected_type": "action_request"
+  },
+  {
+    "query": "Send a notification to user@example.com about the new leave policy.",
+    "expected_type": "action_request"
+  },
+  {
+    "query": "What is the refund policy for hardware, and also open a ticket for my defective monitor.",
+    "expected_type": "multi_intent"
+  },
+  {
+    "query": "I have an issue.",
+    "expected_type": "ambiguous"
+  },
+  {
+    "query": "Tell me about the universe.",
+    "expected_type": "ambiguous"
+  },
+  {
+    "query": "Send an email to my manager.",
+    "expected_type": "ambiguous_action"
+  },
+  {
+    "query": "How many days of PTO do I get?",
+    "expected_type": "knowledge_query"
+  },
+  {
+    "query": "Look up TKT-9999",
+    "expected_type": "action_request"
+  },
+  {
+    "query": "I bought a chair, how do I get reimbursed? Also email hr@example.com that I submitted it.",
+    "expected_type": "multi_intent"
+  },
+  {
+    "query": "What laptops are standard issue?",
+    "expected_type": "knowledge_query"
+  },
+  {
+    "query": "My monitor isn't working, what should I do?",
+    "expected_type": "knowledge_query"
+  },
+  {
+    "query": "Hello there!",
+    "expected_type": "zero_intent"
+  }
+]

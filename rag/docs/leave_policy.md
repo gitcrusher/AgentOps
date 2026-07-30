@@ -1,0 +1,2 @@
+# Leave Policy
+Employees accrue 1.5 days of PTO per month. Sick leave is unlimited but requires a doctor's note for absences longer than 3 consecutive days. Parental leave is up to 12 weeks fully paid for primary caregivers.

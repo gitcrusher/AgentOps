@@ -1,0 +1,2 @@
+# Refund Policy
+All software purchases made through the company portal are eligible for a full refund within 30 days of purchase. Hardware purchases are non-refundable unless defective. To initiate a refund, please log a ticket with your purchase ID.

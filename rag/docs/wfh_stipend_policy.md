@@ -1,0 +1,2 @@
+# Work From Home Stipend Policy
+Full-time employees are eligible for a $500 WFH stipend every calendar year. This can be used for desks, chairs, monitors, and peripherals. Submit your receipts through the expense portal. Approvals take up to 3 business days.

@@ -1,0 +1,2 @@
+# Hardware Request Guidelines
+Standard issue laptops are 14-inch MacBook Pros or equivalent Windows machines (Dell XPS). Upgrades to 16-inch or higher RAM configurations require manager approval and a valid business justification.

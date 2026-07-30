@@ -1,0 +1,23 @@
+# Environments
+venv/
+env/
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/*.jsonl
+logs/*.log
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
