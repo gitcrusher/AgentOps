@@ -1,0 +1,2 @@
+# Office Parking
+Parking is free for all employees in the East Garage. EV charging spots are limited to 4 hours maximum per vehicle. If you leave your car overnight, you must register it with security.

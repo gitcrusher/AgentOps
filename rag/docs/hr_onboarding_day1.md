@@ -1,0 +1,2 @@
+# Day 1 Onboarding Guide
+Welcome! On Day 1, you must: 1) Pick up your laptop from IT (2nd floor). 2) Complete the I-9 verification in Workday. 3) Attend the 10AM orientation in conference room Alpha. Lunch will be catered.

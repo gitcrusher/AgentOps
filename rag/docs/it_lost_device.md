@@ -1,0 +1,2 @@
+# Lost or Stolen Device
+If your laptop or phone is lost or stolen, report it to IT IMMEDIATELY via emergency email or phone call. We will issue a remote wipe command within 15 minutes to protect company data.

@@ -1,0 +1,2 @@
+# Corporate Credit Card Policy
+Corporate cards are issued to Directors and above, or employees who travel more than once a quarter. Personal expenses are strictly prohibited. Late expense reports (past 30 days) will result in card suspension.

@@ -1,0 +1,2 @@
+# Code Review Standards
+Every PR must have at least 2 approving reviews from senior engineers before merging. All PRs must include unit tests with at least 80% coverage. Do not commit secrets or AWS keys; use AWS Secrets Manager.

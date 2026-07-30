@@ -1,0 +1,2 @@
+# Vendor Procurement
+All new software vendors exceeding $5,000/year must go through a security review (InfoSec) and a legal review (Redlining). Submit requests via the Coupa platform. Typical turnaround is 3-4 weeks.

@@ -1,0 +1,2 @@
+# Engineering Deployment Guidelines
+All code must be deployed via Jenkins pipelines. Deployments to production (us-east-1) are only allowed between 9AM and 3PM EST on Tuesdays and Thursdays. Any out-of-band deployments require VP of Engineering approval. Staging deployments can happen at any time.

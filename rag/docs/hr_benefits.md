@@ -1,0 +1,2 @@
+# Medical Benefits
+We offer a choice between a high-deductible health plan (HDHP) with an HSA, or a standard PPO plan. The company matches up to $1,000 annually to your HSA. Dental and Vision are fully covered. Open enrollment is in November.

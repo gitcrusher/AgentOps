@@ -1,0 +1,2 @@
+# Guest WiFi Access
+The 'Corp-Guest' WiFi requires a daily rotating password. You can generate a 24-hour pass for your guests in the Envoy app. Guests are restricted from accessing internal IP subnets.

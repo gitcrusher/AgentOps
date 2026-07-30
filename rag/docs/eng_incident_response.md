@@ -1,0 +1,2 @@
+# Incident Response Protocol
+When PagerDuty alerts, the on-call engineer must acknowledge within 5 minutes. If unresolved within 15 minutes, escalate to the secondary on-call. Create a Slack channel prefixed with `#inc-` for coordination. A post-mortem document is required within 48 hours.
