@@ -1,0 +1,2 @@
+# Password Reset Policy
+Passwords expire every 90 days. You will receive an email warning 7 days prior. If you lock yourself out, call the IT helpdesk at x4455. IT will verify your identity using your manager's approval.
