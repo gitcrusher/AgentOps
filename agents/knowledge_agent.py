@@ -1,5 +1,4 @@
-import os
-from config.settings import LLM_PROVIDER, GROQ_MODEL
+from config.llm import chat, LLMUnavailable
 from rag.retriever import retrieve
 
 KNOWLEDGE_SYSTEM_PROMPT = """Answer the user's question using ONLY the provided context below. If the context does not contain enough information to answer confidently, say so explicitly rather than guessing.
@@ -28,27 +27,15 @@ def get_knowledge_answer(query: str) -> dict:
     context_text = "\n\n".join([f"Source: {c['source']}\n{c['text']}" for c in chunks])
     prompt = KNOWLEDGE_SYSTEM_PROMPT.format(retrieved_chunks=context_text, query=query)
     
-    if LLM_PROVIDER == "groq":
-        from groq import Groq
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-        try:
-            response = client.chat.completions.create(
-                messages=[
-                    {"role": "user", "content": prompt}
-                ],
-                model=GROQ_MODEL,
-                temperature=0.2,
-                max_tokens=400
-            )
-            answer = response.choices[0].message.content
-        except Exception as e:
-            return {
-                "answer": "llm_unavailable",
-                "source_chunks": [],
-                "confidence": 0.0
-            }
-    else:
-        answer = "llm_unavailable"
+    try:
+        answer = chat("", prompt, temperature=0.2, max_tokens=400)
+    except LLMUnavailable as e:
+        print(f"KNOWLEDGE ERROR: {e}")
+        return {
+            "answer": "llm_unavailable",
+            "source_chunks": [],
+            "confidence": 0.0
+        }
         
     return {
         "answer": answer,
